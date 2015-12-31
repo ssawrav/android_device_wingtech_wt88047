@@ -1,0 +1,38 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "kumajaya/android_kernel_cyanogen_msm8916",
+    "target_path": "kernel/cyanogen/msm8916",
+    "revision":    "cm-12.1-amss-2.1-wt88047"
+  },
+  {
+    "remote":      "github",
+    "repository":  "CyanogenMod/android_device_cyanogen_msm8916-common",
+    "target_path": "device/cyanogen/msm8916-common",
+    "revision":    "cm-12.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "ssawrav/android_device_wingtech_wt88047",
+    "target_path": "device/wingtech/wt88047",
+    "revision":    "blisslp"
+  },
+  {
+    "remote":      "github",
+    "repository":  "CyanogenMod/android_external_mm-dash",
+    "target_path": "external/mm-dash",
+    "revision":    "cm-12.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "kumajaya/proprietary_vendor_wingtech",
+    "target_path": "vendor/wingtech",
+    "revision":    "cm-12.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "CyanogenMod/android_hardware_qcom_fm",
+    "target_path": "hardware/qcom/fm",
+    "revision":    "cm-12.1"
+  }
+]
