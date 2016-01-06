@@ -10,7 +10,7 @@ persist.data.target=dpm1
 persist.data.qmi.adb_logmask=0
 
 # Display
-ro.sf.lcd_density=320
+ro.sf.lcd_density=300
 
 # Radio
 persist.radio.multisim.config=dsds
@@ -18,9 +18,11 @@ persist.radio.custom_ecc=1
 persist.radio.ecc_hard_1=112,911,110,122,119,120,000,118
 persist.radio.ecc_hard_count=1
 ril.subscription.types=NV,RUIM
+persist.radio.rat_on=combine
 
 ro.telephony.default_network=9,1
 ro.telephony.ril.config=simactivation
+ro.ril.multi_rat_capable=true
 
 # Disable the thumbnail encoding in order to reduce the power
 persist.camera.tn.disable=1
@@ -36,3 +38,6 @@ ro.frp.pst=/dev/block/bootdevice/by-name/config
 
 # System property for PIP support
 persist.camera.pip.support=0
+
+# Disable all camera debug
+persist.camera.hal.debug.mask=0
