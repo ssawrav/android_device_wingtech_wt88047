@@ -41,3 +41,7 @@ persist.camera.pip.support=0
 
 # Disable all camera debug
 persist.camera.hal.debug.mask=0
+
+#Device Properties
+ro.product.device=wt88047
+ro.product.model=Redmi 2
