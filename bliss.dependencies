@@ -1,0 +1,26 @@
+[
+ {
+    "repository":  "AICP/device_cyanogen_msm8916-common",
+    "target_path": "device/cyanogen/msm8916-common",
+    "branch":      "mm6.0"
+  },
+  {
+    "repository":  "ssawrav/device_wingtech_wt88047",
+    "target_path": "device/wingtech/wt88047",
+    "branch":      "bliss-mm"
+  },
+  {
+   "repository":  "kumajaya/android_kernel_cyanogen_msm8916",
+   "target_path": "kernel/cyanogen/msm8916",
+   "branch":      "cm-13.0"
+  },
+  {
+   "repository":  "kumajaya/proprietary_vendor_wingtech",
+   "target_path": "vendor/wingtech",
+   "branch":      "cm-13.0"
+  },
+  {
+    "repository": "android_external_stlport",
+    "target_path": "external/stlport"
+  }
+]
