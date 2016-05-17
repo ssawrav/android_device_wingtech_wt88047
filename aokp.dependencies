@@ -5,7 +5,7 @@
     "branch":      "cm-13.0"
   },
   {
-    "repository":  "ssawrav/android_device_qcom_common",
+    "repository":  "ssawrav/device_qcom_common",
     "target_path": "device/qcom/common",
     "branch":      "cm-13.0"
   },
