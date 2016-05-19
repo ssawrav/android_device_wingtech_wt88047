@@ -25,7 +25,7 @@ TARGET_BOOTLOADER_BOARD_NAME :=
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkbootimg.mk
 BOARD_KERNEL_CMDLINE += phy-msm-usb.floated_charger_enable=1
-TARGET_KERNEL_SOURCE := kernel/wingtech/msm8916
+TARGET_KERNEL_SOURCE := kernel/cyanogen/msm8916
 TARGET_KERNEL_CONFIG := cyanogenmod_wt88047_defconfig
 
 # CPU
@@ -53,8 +53,6 @@ BOARD_CAMERA_SENSORS := \
 TARGET_USE_VENDOR_CAMERA_EXT := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 
-# Disable Jack & Jill compilation
-ANDROID_COMPILE_WITH_JACK := false
 
 # DPM NSRM Feature
 TARGET_LDPRELOAD := libNimsWrap.so
