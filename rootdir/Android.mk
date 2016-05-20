@@ -1,6 +1,7 @@
 LOCAL_PATH:= $(call my-dir)
 
 # Init scripts
+<<<<<<< HEAD
 
 include $(CLEAR_VARS)
 LOCAL_MODULE       := init.qti.ims.sh
@@ -16,6 +17,8 @@ LOCAL_MODULE_TAGS  := optional eng
 LOCAL_MODULE_CLASS := ETC
 LOCAL_SRC_FILES    := etc/init.lineout.sh
 include $(BUILD_PREBUILT)
+=======
+>>>>>>> parent of 4931feb... IMS start from bootup
 
 include $(CLEAR_VARS)
 LOCAL_MODULE       := fstab.qcom
