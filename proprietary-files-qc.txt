@@ -208,6 +208,7 @@ vendor/lib/libbccQTI.so
 etc/firmware/a300_pfp.fw
 etc/firmware/a300_pm4.fw
 
+<<<<<<< HEAD
 #IMS
 #ims.xml
 #imslibrary
@@ -256,6 +257,8 @@ vendor/lib/lib-rtpdaemoninterface.so
 vendor/lib/lib-rtpsl.so
 vendor/lib/libvoice-svc.so
 
+=======
+>>>>>>> parent of 1701b26... wt88047: Enable IMS and add IMS blobs
 # Media
 lib/libOmxVdecHevc.so
 vendor/lib/libDivxDrm.so

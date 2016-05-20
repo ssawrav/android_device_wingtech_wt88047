@@ -83,6 +83,7 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     gps.msm8916
 
+<<<<<<< HEAD
 # CNE and DPM symbol
 PRODUCT_PACKAGES += \
     libshim_parcel
@@ -112,6 +113,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/ims/imscm.xml:system/etc/permissions/imscm.xml \
     $(LOCAL_PATH)/configs/ims/ims.xml:system/etc/permissions/ims.xml \
     $(LOCAL_PATH)/configs/ims/qti_permissions.xml:system/etc/permissions/qti_permissions.xml
+=======
+# Include IMSEnabler
+PRODUCT_PACKAGES += \
+    IMSEnabler
+>>>>>>> parent of 1701b26... wt88047: Enable IMS and add IMS blobs
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/flp.conf:system/etc/flp.conf \
@@ -140,6 +146,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs_performance.xml:system/etc/media_codecs_performance.xml
 
 PRODUCT_PACKAGES += \
+    init.qti.ims.sh \
     libqcomvisualizer \
     libqcompostprocbundle \
     fstab.qcom \
@@ -174,3 +181,9 @@ PRODUCT_COPY_FILES += \
 
 # Inherit the rest from msm8916-common
 $(call inherit-product, device/cyanogen/msm8916-common/msm8916.mk)
+
+# VT
+PRODUCT_PACKAGES += \
+    libvt_jni \
+    libimscamera_jni \
+    qti_permissions.xml

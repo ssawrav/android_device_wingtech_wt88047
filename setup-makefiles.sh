@@ -183,6 +183,7 @@ LOCAL_CERTIFICATE := platform
 include \$(BUILD_PREBUILT)
 
 include \$(CLEAR_VARS)
+<<<<<<< HEAD
 LOCAL_MODULE := ims
 LOCAL_MODULE_OWNER := $VENDOR
 LOCAL_SRC_FILES := proprietary/app/ims/ims.apk
@@ -203,6 +204,8 @@ LOCAL_CERTIFICATE := PRESIGNED
 include \$(BUILD_PREBUILT)
 
 include \$(CLEAR_VARS)
+=======
+>>>>>>> parent of 1701b26... wt88047: Enable IMS and add IMS blobs
 LOCAL_MODULE := qcrilmsgtunnel
 LOCAL_MODULE_OWNER := $VENDOR
 LOCAL_SRC_FILES := proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
