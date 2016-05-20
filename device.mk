@@ -130,12 +130,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs_performance.xml:system/etc/media_codecs_performance.xml
 
 PRODUCT_PACKAGES += \
-<<<<<<< HEAD
-    init.qti.ims.sh \
+
     libqcomvisualizer \
     libqcompostprocbundle \
-=======
->>>>>>> parent of 4931feb... IMS start from bootup
+
     fstab.qcom \
     init.cne.rc \
     init.target.rc \
