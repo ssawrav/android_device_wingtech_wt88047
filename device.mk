@@ -83,8 +83,7 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     gps.msm8916
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # CNE and DPM symbol
 PRODUCT_PACKAGES += \
     libshim_parcel
@@ -104,24 +103,6 @@ PRODUCT_PACKAGES += \
     com.qti.dpmframework \
     dpmapi
 
-# IMS
-PRODUCT_PACKAGES += \
-    init.qti.ims.sh \
-    ims \
-    imscmlibrary
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/ims/imscm.xml:system/etc/permissions/imscm.xml \
-    $(LOCAL_PATH)/configs/ims/ims.xml:system/etc/permissions/ims.xml \
-    $(LOCAL_PATH)/configs/ims/qti_permissions.xml:system/etc/permissions/qti_permissions.xml
-=======
-# Include IMSEnabler
-PRODUCT_PACKAGES += \
-    IMSEnabler
->>>>>>> parent of 1701b26... wt88047: Enable IMS and add IMS blobs
-
-=======
->>>>>>> parent of f9d6111... IMSEnabler: Application to toggle the Enhanced 4G LTE Mode setting
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/flp.conf:system/etc/flp.conf \
     $(LOCAL_PATH)/gps/gps.conf:system/etc/gps.conf \
