@@ -130,10 +130,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs_performance.xml:system/etc/media_codecs_performance.xml
 
 PRODUCT_PACKAGES += \
-
     libqcomvisualizer \
     libqcompostprocbundle \
-
     fstab.qcom \
     init.cne.rc \
     init.target.rc \
