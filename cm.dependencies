@@ -5,7 +5,7 @@
   },
   {
     "repository": "android_kernel_wingtech_msm8916",
-    "target_path": "kernel/wingtech/msm8916"
+    "target_path": "kernel/cyanogen/msm8916"
   },
   {
     "repository": "android_external_stlport",
