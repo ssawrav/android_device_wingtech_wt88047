@@ -8,3 +8,5 @@ BOARD_KERNEL_CMDLINE += \
     androidboot.selinux=permissive
 
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkbootimg.mk
+
+SYSTEM_PARSE_LEGACY_KERNEL_CMDLINE_BOARDID := true
