@@ -191,6 +191,9 @@
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
 
+    <!-- Bool whether to show Hardware Keys Menu in Universe -->
+    <bool name="config_showHwKeys">true</bool>
+
     <!-- Enable doze mode -->
     <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
